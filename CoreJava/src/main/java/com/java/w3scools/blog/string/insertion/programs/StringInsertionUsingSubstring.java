@@ -1,4 +1,4 @@
-package com.java.w3scools.blog.string.programs;
+package com.java.w3scools.blog.string.insertion.programs;
 
 public class StringInsertionUsingSubstring {
 

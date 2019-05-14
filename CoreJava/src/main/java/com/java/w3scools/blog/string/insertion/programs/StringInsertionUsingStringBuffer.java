@@ -1,10 +1,14 @@
-package com.java.w3scools.blog.string.programs;
+package com.java.w3scools.blog.string.insertion.programs;
 
 public class StringInsertionUsingStringBuffer {
 
 	public static void main(String[] args) {
-		String output = insertStringAtPositionUsingStringBuffer("java blog", 3, " w3schools");
-		System.out.println(output);
+		String originalStringValue = "java blog";
+		String newStringToBeinserted =" w3schools";
+		String output = insertStringAtPositionUsingStringBuffer(originalStringValue, 3, newStringToBeinserted);
+		System.out.println("originalStringValue :"+originalStringValue);
+		System.out.println("newStringToBeinserted :"+newStringToBeinserted);
+		System.out.println("Final String : "+output);
 
 	}
 
@@ -30,3 +34,10 @@ public class StringInsertionUsingStringBuffer {
 		return newString;
 	}
 }
+
+/*Output:
+	
+	originalStringValue :java blog
+	newStringToBeinserted : w3schools
+	Final String : java w3schools blog
+*/
