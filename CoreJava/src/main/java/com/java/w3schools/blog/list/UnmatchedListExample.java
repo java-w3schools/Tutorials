@@ -4,29 +4,43 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 
+ * Compare two arraylist contents and store unmatched contents in another arraylist.
+ * Two lists are having string contents.
+ * 
+ * Link: https://java-w3schools.blogspot.com
+ * 
+ */
 public class UnmatchedListExample {
 
 	public static void main(String[] args) {
 
-		String[] totalArray = {"File34691288" , "File346990234" , "File347034709" , "File34704107" , "File34708585" , "File3471346834" , "File34715107" , "File34715610" , "File34716112" , "File34716896" , "File34716896" , "File34719799" , "File34721241" , "File347213499" , "File347223458" , "File347234491" , "File347234607" , "File347234865" , "File34724002" , "File34724429" , "File3472483434" , "File3472534346" , "File34726025" , "File34726525" , "File34727049" , "File34727672" , "File34727679" , "File34728299" , "File34728481" , "File347285341" , "File347293447" , "File347293480" , "File34729578" , "File34729614" , "File347340054" , "File3473401134" , "File347340427" , "File347340674" , "File347341207" , "File3473414934" , "File347341749" , "File347342064" , "File347342092" , "File3473423488" , "File3473423495" , "File3473434287" , "File347344217" , "File347344482" , "File347345058" , "File347345402" , "File3473454349" , "File347345479" , "File3473456734" , "File347345817" , "File3473458349" , "File347346054" , "File347346120" , "File347346199" , "File3473470234" , "File3473470234" , "File3473470234" , "File347347024" , "File347347024" , "File347347024" , "File347347747" , "File3473479340" , "File347347972" , "File3473479834" , "File347348281" , "File347348797" , "File347349642" , "File347349795" , "File347401345" , "File347405434" , "File347406348" , "File34741022" , "File34741271" , "File34742280" , "File347423474" , "File34742551" , "File34742776" , "File347451834" , "File34745189" , "File34745189" , "File347454347" , "File34745512" , "File34745512" , "File34745512" , "File34746629" , "File34746685" , "File34746720" , "File34747009" , "File34747014" , "File34747017" , "File347470347" , "File34747480" , "File34747717" , "File347485344" , "File347485345" , "File347485346" , "File34748541" , "File34748541" , "File34748542" , "File347485434" , "File347485434" , "File34748850" , "File34749094" , "File34749094" , "File34749094" , "File3474934234" , "File34750015" , "File34750204" , "File347502134" , "File34750259" , "File347503422" , "File347519734" , "File347523449" , "File34752525" , "File347534129" , "File347534144" , "File3475342534" , "File3475343471" , "File347534541" , "File347534602" , "File347534662" , "File347534789" , "File347534852" , "File34754050" , "File34754050" , "File34754090" , "File347543442" , "File347547348" , "File34754767" , "File34755179" , "File347553467" , "File347553490" , "File34755507" , "File34755562" , "File34755962" , "File34756424" , "File34756470" , "File34756520" , "File347566346" , "File34756697" , "File34757002" , "File34757667" , "File34757667" , "File34757667" , "File34757667" , "File34757667" , "File34757667" , "File34757667" , "File34757667" , "File34758109" , "File34758600" , "File34758671" , "File34758726" , "File34758842" , "File34758857" , "File34758885" , "File347589234" , "File34758996" , "File34759202" , "File34759206" , "File34759289" , "File347593462" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759658" , "File34759680" , "File34759766" , "File34760218" , "File347604234" , "File34760457" , "File34760769" , "File34760824" , "File34760860" , "File34761104" , "File34761407" , "File34761755" , "File34761755" , "File34761755" , "File34762102" , "File34762201" , "File34762542" , "File34762679" , "File34762695" , "File347627344" , "File347627344" , "File34762997" , "File34762997" , "File34762997" , "File347634108" , "File347634669" , "File347634822" , "File3476348534" , "File34764108" , "File34764148" , "File34764229" , "File347643421" , "File34764462" , "File34764605" , "File34764629" , "File34764724" , "File34764780" , "File34765228" , "File347653442" , "File347653498" , "File34765411" , "File34765608" , "File347657034" , "File34765762" , "File34766165" , "File34766165" , "File34766288" , "File34766456" , "File34766485" , "File34767086" , "File34767801" , "File34767801"};
-		List<String> totalList = new ArrayList(Arrays.asList(totalArray));
-		System.out.println(totalList.size());
-		
-		String[] deliveredArray = {"File34691288" , "File347034709" , "File34704107" , "File34708585" , "File3471346834" , "File34715107" , "File34715610" , "File34716112" , "File34719799" , "File347234491" , "File347234607" , "File347234865" , "File34724002" , "File3472483434" , "File3472534346" , "File34726025" , "File34726525" , "File34727049" , "File34727672" , "File34728299" , "File34728481" , "File347285341" , "File347293447" , "File347293480" , "File34729578" , "File34729614" , "File347340054" , "File3473401134" , "File347340427" , "File347340674" , "File347341207" , "File3473414934" , "File347341749" , "File347342064" , "File347342092" , "File3473423488" , "File3473423495" , "File3473434287" , "File347344217" , "File347344482" , "File347345402" , "File3473454349" , "File347345479" , "File3473456734" , "File3473458349" , "File347346054" , "File347346199" , "File347347747" , "File3473479340" , "File347347972" , "File347348281" , "File347348797" , "File347349642" , "File347349795" , "File347401345" , "File347405434" , "File347406348" , "File34741022" , "File34741271" , "File34742280" , "File347423474" , "File34742776" , "File347451834" , "File34745189" , "File34745189" , "File347454347" , "File34745512" , "File34745512" , "File34745512" , "File34746685" , "File34746720" , "File34747009" , "File34747014" , "File34747017" , "File347470347" , "File34747480" , "File34747717" , "File34748850" , "File34749094" , "File34749094" , "File34749094" , "File3474934234" , "File34750015" , "File34750204" , "File34750259" , "File347519734" , "File347523449" , "File34752525" , "File347534129" , "File3475342534" , "File347534662" , "File34754090" , "File347543442" , "File347547348" , "File34754767" , "File34755179" , "File347553467" , "File347553490" , "File34755507" , "File34755562" , "File34755962" , "File34756470" , "File347566346" , "File34756697" , "File34757667" , "File34757667" , "File34757667" , "File34757667" , "File34757667" , "File34757667" , "File34757667" , "File34757667" , "File34758671" , "File34758726" , "File34758842" , "File34758857" , "File34758885" , "File347589234" , "File34758996" , "File34759206" , "File347593462" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759497" , "File34759680" , "File34759766" , "File34760218" , "File34760457" , "File34760824" , "File34760860" , "File34761407" , "File34761755" , "File34761755" , "File34761755" , "File34762542" , "File34762679" , "File34762695" , "File34762997" , "File34762997" , "File34762997" , "File347634822" , "File34764108" , "File34764148" , "File34764229" , "File347643421" , "File34764462" , "File34764629" , "File34764724" , "File34764780" , "File347653442" , "File34765411" , "File34765608" , "File34765762" , "File34766165" , "File34766165" , "File34766288" , "File34766456" , "File34766485" , "File34767086"};
-		List<String> deliveredList = new ArrayList(Arrays.asList(deliveredArray));
-		System.out.println(deliveredList.size());
-		
-		totalList.removeAll(deliveredList);
-		List<String> nonMatched = totalList;
-		System.out.println(nonMatched.size());
-		System.out.println(nonMatched);
-		
-		String[] foundFile34sArray = {"File346990234", "File34716896", "File34721241", "File347213499", "File347223458", "File34724429", "File34727679", "File347345058", "File347345817", "File347346120", "File3473470234", "File347347024", "File3473479834", "File34742551", "File34746629", "File347485344", "File347485345", "File347485346", "File34748541", "File34748541", "File34748542", "File347485434", "File347485434", "File347502134", "File347503422", "File347534144", "File3475343471", "File347534541", "File347534602", "File347534789", "File347534852", "File34754050", "File34756424", "File34756520", "File34757002", "File34758109", "File34758600", "File34759202", "File34759289", "File34759658", "File347604234", "File34760769", "File34761104", "File34762102", "File34762201", "File347627344", "File347634108", "File347634669", "File3476348534", "File34764605", "File34765228", "File347653498", "File347657034", "File34767801"};
-		List<String> foundFile34sList = new ArrayList(Arrays.asList(foundFile34sArray));
-		nonMatched.removeAll(foundFile34sList);
-		System.out.println("----");
-		System.out.println(foundFile34sList.size());
-		System.out.println(nonMatched);
+		// List 1 contains file names from 1 to 8.
+		List<String> list1 = new ArrayList<>();
+		list1.add("File Name 1");
+		list1.add("File Name 2");
+		list1.add("File Name 3");
+		list1.add("File Name 4");
+		list1.add("File Name 5");
+		list1.add("File Name 6");
+		list1.add("File Name 7");
+		list1.add("File Name 8");
+
+		// List 2 contains only even number file names.
+		List<String> list2 = new ArrayList<>();
+		list2.add("File Name 2");
+		list2.add("File Name 4");
+		list2.add("File Name 6");
+		list2.add("File Name 8");
+
+		list1.removeAll(list2);
+
+		System.out.println(list1);
 	}
 
 }
+/*
+Output:
+	[File Name 1, File Name 3, File Name 5, File Name 7]
+*/
