@@ -7,6 +7,12 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Stream;
 
+/**
+ * Java Program on how to iterate a map in Java
+ * 
+ * @author Venkatesh
+ *
+ */
 public class HashMapIterateExamples {
 
 	public static void main(String[] args) {
@@ -78,3 +84,36 @@ public class HashMapIterateExamples {
 	}
 
 }
+
+/*Output:
+	Key(Interface) = Set, Value(Implementation class) = Hashset
+	Key(Interface) = List, Value(Implementation class) = ArrayList
+	Key(Interface) = Map, Value(Implementation class) = HashMap
+	-----------------------------------------------------
+	Key(Interface): Set
+	Key(Interface): List
+	Key(Interface): Map
+	Value(Implementation class): Hashset
+	Value(Implementation class): ArrayList
+	Value(Implementation class): HashMap
+	-----------------------------------------------------
+	Key(Interface) = Set, Value(Implementation class) = Hashset
+	Key(Interface) = List, Value(Implementation class) = ArrayList
+	Key(Interface) = Map, Value(Implementation class) = HashMap
+	-----------------------------------------------------
+	Key(Interface) = Set, Value(Implementation class) = Hashset
+	Key(Interface) = List, Value(Implementation class) = ArrayList
+	Key(Interface) = Map, Value(Implementation class) = HashMap
+	-----------------------------------------------------
+	Set - Hashset
+	List - ArrayList
+	Map - HashMap
+	-----------------------------------------------------
+	Set - Hashset
+	List - ArrayList
+	Map - HashMap
+	-----------------------------------------------------
+	Set - Hashset
+	List - ArrayList
+	Map - HashMap
+*/
