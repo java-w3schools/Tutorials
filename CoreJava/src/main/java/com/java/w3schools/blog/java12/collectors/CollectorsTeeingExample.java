@@ -1,4 +1,4 @@
-package com.java.w3schools.java12.collectors;
+package com.java.w3schools.blog.java12.collectors;
 
 import java.util.ArrayList;
 import java.util.Arrays;

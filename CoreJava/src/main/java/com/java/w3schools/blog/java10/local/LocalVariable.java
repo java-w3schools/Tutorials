@@ -1,4 +1,4 @@
-package com.java.w3schools.java10.local;
+package com.java.w3schools.blog.java10.local;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package com.java.w3schools.java12.files;
+package com.java.w3schools.blog.java12.files;
 
 import java.io.IOException;
 import java.nio.file.Files;

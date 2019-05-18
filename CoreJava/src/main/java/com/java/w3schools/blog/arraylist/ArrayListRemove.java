@@ -1,4 +1,4 @@
-package com.java.w3schools.arraylist;
+package com.java.w3schools.blog.arraylist;
 
 import java.util.ArrayList;
 import java.util.Iterator;

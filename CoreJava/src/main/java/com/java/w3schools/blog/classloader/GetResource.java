@@ -1,4 +1,4 @@
-package com.java.w3schools.classloader;
+package com.java.w3schools.blog.classloader;
 
 import java.net.URL;
 

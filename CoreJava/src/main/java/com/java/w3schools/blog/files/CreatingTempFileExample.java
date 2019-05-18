@@ -1,4 +1,4 @@
-package com.java.w3schools.files;
+package com.java.w3schools.blog.files;
 
 import java.io.BufferedWriter;
 import java.io.File;

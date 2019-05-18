@@ -1,4 +1,4 @@
-package com.java.w3schools;
+package com.java.w3schools.blog.string;
 
 import java.util.stream.Stream;
 

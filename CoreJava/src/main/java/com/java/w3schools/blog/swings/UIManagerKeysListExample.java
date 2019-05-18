@@ -1,4 +1,4 @@
-package com.java.w3schools.swings;
+package com.java.w3schools.blog.swings;
 
 import java.util.ArrayList;
 import java.util.Collections;

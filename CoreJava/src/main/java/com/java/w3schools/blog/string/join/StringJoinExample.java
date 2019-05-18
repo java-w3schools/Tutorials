@@ -1,4 +1,4 @@
-package com.java.w3schools.string.join;
+package com.java.w3schools.blog.string.join;
 
 import java.util.ArrayList;
 import java.util.List;

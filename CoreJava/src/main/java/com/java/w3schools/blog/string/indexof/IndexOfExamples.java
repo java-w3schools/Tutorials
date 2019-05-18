@@ -1,4 +1,4 @@
-package com.java.w3scools.blog.string.indexof;
+package com.java.w3schools.blog.string.indexof;
 
 public class IndexOfExamples {
 

@@ -1,4 +1,4 @@
-package com.java.w3schools.exceptions;
+package com.java.w3schools.blog.exceptions;
 
 public class UnknownFormatConversionExceptionMethods {
 

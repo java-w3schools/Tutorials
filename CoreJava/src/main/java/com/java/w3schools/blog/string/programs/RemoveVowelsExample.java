@@ -1,4 +1,4 @@
-package com.java.w3schools.string.programs;
+package com.java.w3schools.blog.string.programs;
 
 import java.util.ArrayList;
 import java.util.List;

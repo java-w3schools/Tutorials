@@ -1,4 +1,4 @@
-package com.java.w3schools.math;
+package com.java.w3schools.blog.math;
 
 /**
  * Program to work with NaN exponent with pow method.

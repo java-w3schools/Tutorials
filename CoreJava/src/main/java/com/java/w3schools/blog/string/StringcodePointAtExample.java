@@ -1,4 +1,4 @@
-package com.java.w3schools.string;
+package com.java.w3schools.blog.string;
 
 public class StringcodePointAtExample {
 	public static void main(String[] args) {

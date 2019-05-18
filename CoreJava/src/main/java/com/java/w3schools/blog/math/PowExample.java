@@ -1,4 +1,4 @@
-package com.java.w3schools.math;
+package com.java.w3schools.blog.math;
 
 /**
  * Example program on how to use Math.pow() method.

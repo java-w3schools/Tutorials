@@ -1,4 +1,4 @@
-package com.java.w3scools.blog.java11.string;
+package com.java.w3schools.blog.java11.string;
 
 public class RepeatExample {
 

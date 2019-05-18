@@ -1,7 +1,6 @@
 package com.java.w3schools.blog.list;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import com.java.w3schools.blog.model.Employee;

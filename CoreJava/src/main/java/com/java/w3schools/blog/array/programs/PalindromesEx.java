@@ -1,4 +1,4 @@
-package com.java.w3schools.array.programs;
+package com.java.w3schools.blog.array.programs;
 
 /**
  * Java program to find all palindromes in a given range (min, max)

@@ -1,4 +1,4 @@
-package com.java.w3scools.blog.java12.string;
+package com.java.w3schools.blog.java12.string;
 
 import java.lang.invoke.MethodHandles;
 

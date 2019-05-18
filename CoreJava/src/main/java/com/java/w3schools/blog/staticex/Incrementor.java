@@ -1,4 +1,4 @@
-package com.java.w3schools.staticex;
+package com.java.w3schools.blog.staticex;
 
 public class Incrementor {
 

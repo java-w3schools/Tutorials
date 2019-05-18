@@ -1,4 +1,4 @@
-package com.java.w3scools.blog.string.getbytes;
+package com.java.w3schools.blog.string.getbytes;
 
 public class CharRemovalFromString {
 
