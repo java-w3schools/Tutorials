@@ -35,7 +35,7 @@ public class StringLengthExample {
 		if(blankStr.trim().length() == 0) {
 			System.out.println("Given String is empty");
 		}
-
+		
 	}
 }
 
