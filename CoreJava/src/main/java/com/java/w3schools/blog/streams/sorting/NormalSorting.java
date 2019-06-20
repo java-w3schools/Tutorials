@@ -4,6 +4,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Supplier;
 
+/**
+ * Example programs on Lambda Expressions.
+ * 
+ * @author Java-W3schools
+ *
+ */
 public class NormalSorting {
 
 	public static void main(String[] args) {
@@ -41,3 +47,8 @@ public class NormalSorting {
 		public String getIntToString(Integer value);
 	}
 }
+
+/*Output:
+	lambdaEmpList Before sorting : [Employee [id=100, salary=10000, designation=Software Engineer], Employee [id=101, salary=5000, designation=Junior SE], Employee [id=105, salary=6000, designation=Junior SE], Employee [id=110, salary=2500, designation=Intern]]
+			lambdaEmpList after sorting : [Employee [id=110, salary=2500, designation=Intern], Employee [id=101, salary=5000, designation=Junior SE], Employee [id=105, salary=6000, designation=Junior SE], Employee [id=100, salary=10000, designation=Software Engineer]]
+*/

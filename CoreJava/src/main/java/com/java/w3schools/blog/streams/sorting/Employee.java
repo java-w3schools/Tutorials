@@ -1,5 +1,11 @@
 package com.java.w3schools.blog.streams.sorting;
 
+/**
+ * Employee model with fields, setters & getter methods, overidden toString() Method
+ * 
+ * @author @author Java-W3schools
+ *
+ */
 public class Employee {
 
 	private int id;
