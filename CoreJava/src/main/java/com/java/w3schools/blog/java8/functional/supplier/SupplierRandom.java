@@ -1,4 +1,4 @@
-package com.java.w3schools.blog.java8.functional;
+package com.java.w3schools.blog.java8.functional.supplier;
 
 import java.util.function.Supplier;
 
