@@ -5,6 +5,9 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
+/**
+ *java 8 Stream allMatch() example 
+ */
 import com.java.w3schools.blog.model.Employee;
 
 public class AllMatchExample {
@@ -44,3 +47,12 @@ public class AllMatchExample {
 
 	}
 }
+
+
+/*
+ * Output: isAllMatch for even numbers : true 
+ * isAllMatch for odd numbers : false
+ * namelength allmatch : true
+ *  nameMatch allmatch : false
+ */
+

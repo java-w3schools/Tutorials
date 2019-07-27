@@ -20,3 +20,6 @@ public class IntStreamEmptyExample {
 	}
 
 }
+/*
+ * Output: Created instream size: 0
+ */
