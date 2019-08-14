@@ -104,3 +104,27 @@ public class StreamTerminalOperations {
 	}
 
 }
+
+
+/**
+
+Output:
+objArray length 5
+count :: 5
+sum of first 5 numbers using reduce opration : 15
+numList : [3, 1, 4, 2, 5]
+1
+2
+3
+4
+5
+numList1 : [1, 2, 3, 4, 5]
+Min value : 1
+Max value : 5
+anymatch value : true
+allmatch value : false
+noneMatch method returned value : true
+Find any odd number : 1
+Find first odd number : 2
+
+*/
