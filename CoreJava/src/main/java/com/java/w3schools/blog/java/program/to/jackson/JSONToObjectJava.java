@@ -12,6 +12,8 @@ public class JSONToObjectJava {
 		
 		Customer customer = objectWriter.readValue(jsonString, Customer.class);
 		
+		System.out.println("customer name : "+customer.getName());
+		
 		
 	}
 
