@@ -21,7 +21,6 @@ public class IteratorforEachRemainingExample {
 		countries.add("India");
 		countries.add("USA");
 
-
 		countries.iterator().forEachRemaining( country -> System.out.println(country));
 	}
 
