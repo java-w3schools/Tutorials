@@ -144,3 +144,43 @@ public class HashMapExamples {
 	}
 
 }
+
+/**
+
+Output:
+idNamesMap : {100=Jhon, 200=Paul, 300=Tina, 400=Chunn, 500=menoj}
+newIdNamesMap : {100=Jhon, 200=Paul, 300=Tina, 400=Chunn, 500=menoj, 600=Zumba}
+value 1 : Paul
+value 2 : Tina
+value 3 : Zumba
+nullValue : null
+Get default vaue example key not found: Eight Hundread
+Get default vaue example : Chunn
+nullkeyValue : null
+Removed value for the key 500 : menoj
+Removed value for key 1000 : null
+Size after calling clear() method : 5
+key 500 exists : true
+key 900 exists : false
+value Zumba exists : false
+value Balaji exists : false
+keysSet : [100, 200, 300, 400, 600]
+Checking modifications in keysSet : [100, 200, 300, 400, 600, 1000]
+values  : [Jhon, Paul, Tina, Chunn, Zumba, google]
+Checking modifications in Collection: [Jhon, Paul, Tina, Chunn, Zumba, google, bing]
+compute returnedValue : key 300 value is : Tina
+compute returnedValue for key 8900 : value is null
+map values after calling compute(): {100=Jhon, 200=Paul, 300=key 300 value is : Tina, 400=Chunn, 600=Zumba, 1000=google, 2000=bing, 8900=value is null}
+returnedValueKeyPresent : Chunn updated
+returnedValueKeyPresent : 4500 added
+Chages to original map : {100=Jhon, 200=Paul, 300=key 300 value is : Tina, 400=Chunn updated, 600=Zumba, 1000=google, 4500=4500 added, 2000=bing, 8900=value is null}
+freshMap : {400=Chunn, 100=Jhon, 500=500, 200=Paul, 300=Tina}
+freshMap : {400=Chunn, 100=100, 500=500, 200=Paul, 300=Tina}
+freshMap : {400=400Chunn, 100=100100, 500=500500, 200=200Paul, 300=300Tina}
+key : 400, value : 400Chunn
+key : 100, value : 100100
+key : 500, value : 500500
+key : 200, value : 200Paul
+key : 300, value : 300Tina
+
+*/
