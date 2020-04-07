@@ -7,6 +7,8 @@ import java.util.TreeMap;
 public class TreeMapExamples {
 
 	public static void main(String[] args) {
+		
+		// sorting in ascending order
 		Map<Integer, String> treeMap = new TreeMap<>();
 
 		treeMap.put(300, "Three Hundred");
@@ -16,6 +18,7 @@ public class TreeMapExamples {
 
 		System.out.println("sorted treemap : " + treeMap);
 
+		//sorting in reverse or descending order
 		Map<Integer, Float> reverseOrder = new TreeMap<>(Collections.reverseOrder());
 
 		reverseOrder.put(300, 300f);
