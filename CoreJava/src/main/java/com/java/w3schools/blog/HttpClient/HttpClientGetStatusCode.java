@@ -11,7 +11,7 @@ import org.apache.http.impl.client.HttpClientBuilder;
 
 public class HttpClientGetStatusCode {
 
-	private static final String GOOGLE_URL = "http://www.google.com";
+	private static final String GOOGLE_URL = "http://www.google.com1";
 
 	private static CloseableHttpClient instance;
 
