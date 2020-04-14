@@ -38,6 +38,8 @@ public class HttpHeaderSetHeaderExample4_3Before {
 
 
 		HttpParams allHeaders = client.getParams();
+		
+		
 		System.out.println(allHeaders.getParameter(HttpHeaders.CONTENT_TYPE));
 
 	}
